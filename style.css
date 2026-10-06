@@ -545,3 +545,30 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
+
+ .haut .en-tete {
+  position: sticky;
+  top: 0;
+  height: 50vh;
+  background:#FFF4EE;
+
+}
+.haut h1 {
+  position: absolute;
+  top: 15vh;
+  left: 80vh;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.haut p {
+  position: absolute;
+  top: 22vh;
+  left: 80vh;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.haut h1 span {
+  color: #FF6B2C;
+}
