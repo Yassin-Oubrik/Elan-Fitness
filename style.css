@@ -541,7 +541,7 @@ button:focus-visible {
   color: #94A3B8;
 }
 /* style */
-
+/* 
  .haut .en-tete {
   position: sticky;
   top: 0;
@@ -552,6 +552,7 @@ button:focus-visible {
 .bas {
    background:#FFF4EE;
    height: 50vh;
+      z-index: 0;
 }
 .haut h1 {
   position: absolute;
@@ -738,6 +739,7 @@ border-radius: 25px;
     height: 50px;
     padding: 80px;
     background-color: #FFF4EE;
+z-index: 2;
 }
 
 .footercontact .div1 {
@@ -766,8 +768,23 @@ border-radius: 25px;
     height: 25px;
 
 }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    /* responsive */
-   form {
+   /*form {
     max-width: 100%;
    }
    /* @media (max-width: 767px) {
@@ -776,7 +793,7 @@ border-radius: 25px;
         gap: 15px;
     }
 } */
- @media (max-width: 767px) {
+/* @media (max-width: 767px) {
 
   .conteneur {
     padding: 0 15px;
@@ -797,7 +814,7 @@ border-radius: 25px;
   }
 
   /* MENU */
-  .menu {
+  /*.menu {
     gap: 12px;
     flex-wrap: wrap;
     justify-content: center;
@@ -807,7 +824,7 @@ border-radius: 25px;
     font-size: 14px;
   }
 
-  /* CONTACT */
+  CONTACT
   .haut h1 {
     left: 20px;
     top: 100px;
@@ -851,3 +868,382 @@ border-radius: 25px;
   }
 }
  
+
+*/
+
+.haut {
+    height: 480px;
+   
+}
+
+.haut .en-tete {
+    height: 100%;
+}
+
+.haut h1 {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.haut h1 span {
+    color: #FF6B2C;
+}
+
+.haut p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Cambria, Georgia, serif;
+}
+
+
+.bas {
+    height: 400px;
+    background: #FFF4EE;
+    position: relative;
+
+}
+
+fieldset {
+    width: 840px;
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background: white;
+    border: 1px solid wheat;
+    border-radius: 25px;
+    z-index: 10;
+}
+
+
+
+
+fieldset .info {
+    width: 360px;
+    margin: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    background: #FF6B2C;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.info p {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+
+
+
+.infotele {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.infotele img {
+    width: 25px;
+    height: 25px;
+}
+
+.infotele div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.infotele span {
+    font-size: 14px;
+}
+
+
+.infoemail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.infoemail img {
+    width: 25px;
+    height: 25px;
+}
+
+.infoemail span {
+    font-size: 14px;
+}
+
+
+.infolocal {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.infolocal img {
+    width: 25px;
+    height: 25px;
+}
+
+.infolocal div {
+    font-size: 14px;
+}
+
+
+
+fieldset form {
+    flex: 1;
+    padding: 30px 25px;
+}
+
+
+/* nom + email */
+
+.nomEmail {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 25px;
+}
+
+.nomEmail > div {
+    width: 50%;
+}
+
+.name,.email,.sujet {
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid #777;
+    padding: 8px 0;
+    background: transparent;
+}
+
+.name:focus,.email:focus,.sujet:focus,.message:focus {
+    outline: none;
+    border-bottom: 1px solid #FF6B2C;
+}
+
+
+.nomEmail > div:focus-within label,
+.divSujet:focus-within label,
+.divtext:focus-within label {
+    color: #FF6B2C;
+}
+
+
+
+.divSujet {
+    margin-bottom: 25px;
+}
+
+.sujet {
+    margin-top: 8px;
+}
+
+
+/* message */
+
+.divtext {
+    margin-bottom: 20px t;
+    padding: 0 ;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 8px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #777;
+}
+
+
+
+.btn {
+    background: #FF6B2C;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 8px 18px;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #FFF4EE;
+
+    color: #FF6B2C;
+}
+
+
+.footercontact {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+
+    background: #FFF4EE;
+}
+
+.footercontact .div1 {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 60px;
+}
+
+.footercontact .img1 {
+    width: 70px;
+    height: auto;
+}
+
+.footercontact .div2 {
+    display: flex;
+    gap: 20px;
+}
+
+.footercontact .div2 img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+@media (max-width: 900px) {
+
+    fieldset {
+        width: 90%;
+    }
+
+    fieldset .info {
+        width: 320px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .haut {
+        height: 400px;
+    }
+
+    .haut h1 {
+        top: 100px;
+
+        width: 100%;
+
+        padding: 0 15px;
+
+        font-size: 30px;
+
+        text-align: center;
+
+        white-space: normal;
+    }
+
+    .haut p {
+        top: 175px;
+
+        width: 90%;
+
+        font-size: 14px;
+    }
+
+
+    .bas {
+        min-height: 570px;
+    }
+
+    fieldset {
+        width: 92%;
+
+        height: auto;
+        min-height: 500px;
+
+        top: -40px;
+
+        display: block;
+    }
+
+
+
+    fieldset .info {
+        display: none;
+    }
+
+
+    /* form */
+
+    fieldset form {
+        width: 100%;
+
+        padding: 25px;
+    }
+
+    .nomEmail {
+        display: block;
+
+        margin-bottom: 10px;
+    }
+
+    .nomEmail > div {
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+
+    .name,
+    .email,
+    .sujet,
+    textarea {
+        width: 100%;
+    }
+
+
+    /* footer */
+
+    .footercontact {
+        height: 80px;
+    }
+
+    .footercontact .img1 {
+        left: 20px;
+
+        width: 50px;
+    }
+
+    .footercontact .div2 {
+        right: 20px;
+
+        gap: 10px;
+    }
+
+    .footercontact .div2 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footercontact .div1 p {
+        font-size: 12px;
+    }
+}
