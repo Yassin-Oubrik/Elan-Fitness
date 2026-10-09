@@ -1,8 +1,10 @@
-### Documentation des acquis  Elan Fitness
+### Elan Fitness
 
-### 1. Présentation du projet
+Site web de salle de sport réalisé dans le cadre d'un projet de développement front-end en HTML et CSS.
 
-Élan Fitness est un site web de salle de sport réalisé en HTML et CSS. L'objectif du projet était de passer d'un site one-page à un site multipage pour faciliter la navigation et mieux organiser le contenu.
+ ### 1. Présentation du projet
+
+Le projet consiste à transformer un site one-page en un site multipage afin de mieux organiser les informations et de faciliter la navigation.
 
 ### 2. Technologies utilisees
 
