@@ -17,17 +17,17 @@
             <div class="conteneur en-tete-contenu">
 
                 <a href="#" class="logo">
-                    <img src="img/logo2.png" alt="" width="50">
+                    <img src="img/logo2.png" alt="Logo Elan Fitness" width="50">
                     Élan Fitness
                 </a>
 
                 <nav>
                     <ul class="menu">
-                        <li><a href="index.html" >Accueil</a></li>
+                        <li><a href="index.html">Accueil</a></li>
                         <li><a href="apropos.html">À propos</a></li>
                         <li><a href="programmes.html">Programmes</a></li>
                         <li>
-                            <a href="contact.html" class="active"style="   color: #FF6B2C;border-bottom: 2px solid #FF6B2C;">Contact</a>
+                            <a href="contact.html" class="active">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -53,7 +53,6 @@
 
         <fieldset>
 
-            <!-- INFORMATIONS -->
             <div class="info">
 
                 <h2>Informations de contact</h2>
@@ -65,7 +64,7 @@
 
                 <div class="infotele">
 
-                    <img src="img/phone-call.png" alt="">
+                    <img src="img/phone-call.png" alt="Telephone">
 
                     <div>
                         <span>+212 6 45 54 84 87</span>
@@ -76,7 +75,7 @@
 
                 <div class="infoemail">
 
-                    <img src="img/envelope.png" alt="">
+                    <img src="img/envelope.png" alt="email">
 
                     <span>contact@elanfitness.ma</span>
 
@@ -84,7 +83,7 @@
 
                 <div class="infolocal">
 
-                    <img src="img/marker.png" alt="">
+                    <img src="img/marker.png" alt="localisation">
 
                     <div>safi, Maroc</div>
 
@@ -99,50 +98,42 @@
 
                     <div>
                         <label for="name">
-                            <i>votre nom</i>
+                            <i>Votre nom</i>
                         </label>
 
-                        <input type="text" id="name" class="name">
+                        <input type="text" id="name" class="name" autocomplete="name" required>
                     </div>
 
                     <div>
                         <label for="email">
-                            <i>votre email</i>
+                            <i>Votre email</i>
                         </label>
 
-                        <input type="email" id="email" class="email">
+                        <input type="email" id="email" class="email" autocomplete="email" required>
                     </div>
 
                 </div>
 
-
                 <div class="divSujet">
                     <label for="sujet">
-                        <i>votre sujet</i>
+                        <i>Votre sujet</i>
                     </label>
 
-                    <input type="text" id="sujet" class="sujet">
-
+                    <input type="text" id="sujet" class="sujet" required>
                 </div>
-
 
                 <div class="divtext">
 
                     <label for="message">
-                        <i>message</i>
+                        <i>Votre message</i>
                     </label>
 
-                    <textarea
-                        id="message"
-                        class="message"
-                        placeholder="ecrire votre message..."
-                    ></textarea>
+                    <textarea id="message" class="message" placeholder="Écrivez votre message..." required></textarea>
 
                 </div>
 
-
                 <button type="submit" class="btn">
-                    enregistrer
+                    Envoyer
                 </button>
 
             </form>
@@ -152,35 +143,36 @@
     </section>
 
 
-    
-    
-<footer class="pied-de-page">
-  <div class="conteneur">
 
-    <div class="pied-haut">
-      <div>
-        <p class="logo logo-clair">Élan Fitness</p>
-        <p class="slogan">Ton énergie, ton rythme.</p>
-      </div>
 
-      <nav aria-label="Navigation du pied de page">
-        <ul class="menu menu-pied">
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="apropos.html">À propos</a></li>
-          <li><a href="programmes.html">Programmes</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <footer class="pied-de-page">
+        <div class="conteneur">
 
-    <div class="pied-bas">
-      <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
-      <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
-    </div>
+            <div class="pied-haut">
+                <div>
+                    <p class="logo logo-clair">Élan Fitness</p>
+                    <p class="slogan">Ton énergie, ton rythme.</p>
+                </div>
 
-  </div>
-</footer>
+                <nav aria-label="Navigation du pied de page">
+                    <ul class="menu menu-pied">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="apropos.html">À propos</a></li>
+                        <li><a href="programmes.html">Programmes</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="pied-bas">
+                <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+                <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+            </div>
+
+        </div>
+    </footer>
 
 
 </body>
+
 </html>

@@ -8,8 +8,8 @@ Le projet consiste à transformer un site one-page en un site multipage afin de 
 
 ### 2. Technologies utilisees
 
-- **HTML5 :** pour organiser le contenu des pages.
-- **CSS3 :** pour travailler le design, les couleurs, les espacements et la mise en page.
+- **HTML :** pour organiser le contenu des pages.
+- **CSS :** pour travailler le design, les couleurs, les espacements et la mise en page.
 - **Flexbox :** pour organiser et aligner les éléments.
 - **Media Queries :** pour adapter le site aux différentes tailles d'écran.
 - **Animations CSS :** pour ajouter quelques effets légers au site.
