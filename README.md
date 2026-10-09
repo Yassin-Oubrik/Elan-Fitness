@@ -1,11 +1,11 @@
 
-# Élan Fitness
+# Elan Fitness
 
-Site web de salle de sport réalisé dans le cadre d'un projet de développement front-end en HTML et CSS.
+Site web de salle de sport realise dans le cadre d'un projet de développement front-end en HTML et CSS.
 
 ## 1. Site web hébergé
 
-[Visiter le site Élan Fitness](https://yassin-oubrik.github.io/Elan-Fitness/)
+[Visiter le site Elan Fitness](https://yassin-oubrik.github.io/Elan-Fitness/)
 
 ## 2. Code source
 
