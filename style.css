@@ -543,12 +543,11 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
-/* style */
-
+/* mon style */
+/*  En-tête */
 
 .haut {
     height: 480px;
-   
 }
 
 .haut .en-tete {
@@ -574,12 +573,17 @@ button:focus-visible {
 }
 
 
+/* Section principale */
+
 .bas {
     height: 400px;
     background: #FFF4EE;
     position: relative;
-
 }
+.bas {
+    flex: 1;
+}
+
 
 fieldset {
     width: 840px;
@@ -595,7 +599,7 @@ fieldset {
 }
 
 
-
+/* Informations de contact  */
 
 fieldset .info {
     width: 360px;
@@ -621,7 +625,7 @@ fieldset .info {
 }
 
 
-
+/* Téléphone */
 
 .infotele {
     display: flex;
@@ -646,6 +650,8 @@ fieldset .info {
 }
 
 
+/* Email */
+
 .infoemail {
     display: flex;
     align-items: center;
@@ -663,11 +669,14 @@ fieldset .info {
 }
 
 
+/* Adresse */
+
 .infolocal {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .infolocal img {
     width: 25px;
     height: 25px;
@@ -678,6 +687,7 @@ fieldset .info {
 }
 
 
+/*  Formulaire de contact */
 
 fieldset form {
     flex: 1;
@@ -685,7 +695,7 @@ fieldset form {
 }
 
 
-/* nom + email */
+/* Nom et email */
 
 .nomEmail {
     display: flex;
@@ -697,6 +707,9 @@ fieldset form {
     width: 50%;
 }
 
+
+/* Champs du formulaire */
+
 .name,.email,.sujet {
     width: 100%;
     border-style: none;
@@ -705,11 +718,16 @@ fieldset form {
     background: transparent;
 }
 
+
+/* Effet au focus */
+
 .name:focus,.email:focus,.sujet:focus,.message:focus {
     outline: none;
     border-bottom: 1px solid #FF6B2C;
 }
 
+
+/* Couleur des labels au focus */
 
 .nomEmail > div:focus-within label,
 .divSujet:focus-within label,
@@ -718,6 +736,7 @@ fieldset form {
 }
 
 
+/* Sujet */
 
 .divSujet {
     margin-bottom: 25px;
@@ -728,11 +747,11 @@ fieldset form {
 }
 
 
-/* message */
+/* Message */
 
 .divtext {
     margin-bottom: 20px t;
-    padding: 0 ;
+    padding: 0;
 }
 
 textarea {
@@ -745,50 +764,46 @@ textarea {
 }
 
 
+/* Bouton d'envoi */
 
 .btn {
     background: #FF6B2C;
-
     color: white;
-
     border: none;
-
     border-radius: 10px;
-
     padding: 8px 18px;
-
     cursor: pointer;
 }
 
 .btn:hover {
     background: #FFF4EE;
-
     color: #FF6B2C;
 }
 
+
+/* Footer */
 
 .footercontact {
     height: 100px;
-
     display: flex;
     align-items: center;
-
     background: #FFF4EE;
 }
 
-.en-tete .menu a.active {
-    color: #FF6B2C;
-    border-bottom: 2px solid #FF6B2C;
-}
 
 
-.bas {
-    flex: 1;
-}
+
+
+
+
+/*  Sections  */
 
 .section {
     flex: 1;
 }
+
+/* responsive */
+
 /* 
  TABLETTES */
   
@@ -958,4 +973,35 @@ textarea {
 
 
 
+/* Animation de formulaire */
+fieldset {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+fieldset:hover {
+    transform: translate(-50%, -5px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
 
+
+
+
+
+
+
+
+
+
+/* Details des programmes */
+.carte-programme details {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
+.carte-programme summary {
+    color: #FF6B2C;
+    font-size: 14px;
+    cursor: pointer;
+}
+.carte-programme summary:hover {
+    color: #172033;
+}
