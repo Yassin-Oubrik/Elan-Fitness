@@ -5,11 +5,11 @@ Site web de salle de sport realise dans le cadre d'un projet de développement f
 
 ## 1. Site web hébergé
 
-[Visiter le site Elan Fitness](https://yassin-oubrik.github.io/Elan-Fitness/)
+[Elan Fitness](https://yassin-oubrik.github.io/Elan-Fitness/)
 
 ## 2. Code source
 
-[Consulter le repository GitHub](https://github.com/Yassin-Oubrik/Elan-Fitness)
+[ repository GitHub](https://github.com/Yassin-Oubrik/Elan-Fitness)
 
 ## 3. Documentation des acquis
 
@@ -19,4 +19,4 @@ Consulter le fichier [documentation.md](documentation.md).
 
 La planification et le suivi des tâches sont réalisés avec Trello.
 
-[Consulter le tableau Trello — Élan Fitness](https://trello.com/invite/b/6ac4de90ee489fe7f0167b39/ATTI4f03a9e6105264e8b7b112552168b2375C4343CF/elan-fitness)
+[tableau Trello Elan Fitness](https://trello.com/invite/b/6ac4de90ee489fe7f0167b39/ATTI4f03a9e6105264e8b7b112552168b2375C4343CF/elan-fitness)
