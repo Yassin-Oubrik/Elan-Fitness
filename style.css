@@ -15,8 +15,7 @@ body {
   color: #1F2937;
   background-color: #F7F8FA;
   min-height: 100vh;
-  /* display: flex;
-  flex-direction: column; */
+
 }
 
 h1, h2, h3, h4 {
@@ -543,6 +542,17 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
+
+
+
+
+
+
+
+
+
+
 /* mon style */
 /*  En-tête */
 
@@ -579,8 +589,6 @@ button:focus-visible {
     height: 400px;
     background: #FFF4EE;
     position: relative;
-}
-.bas {
     flex: 1;
 }
 
@@ -750,7 +758,7 @@ fieldset form {
 /* Message */
 
 .divtext {
-    margin-bottom: 20px t;
+    margin-bottom: 20px ;
     padding: 0;
 }
 
@@ -779,19 +787,6 @@ textarea {
     background: #FFF4EE;
     color: #FF6B2C;
 }
-
-
-/* Footer */
-
-.footercontact {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    background: #FFF4EE;
-}
-
-
-
 
 
 
@@ -932,12 +927,17 @@ textarea {
         height: auto;
         min-height: 500px;
         top: -40px;
-        display: block;
+        display: flex;
+       flex-direction: column;
     }
 
-    fieldset .info {
-        display: none;
-    }
+ fieldset .info {
+    width: 100%;
+    margin: 0;
+    padding: 25px 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.pied-de-page{ margin-top: 250px;}
 
     fieldset form {
         width: 100%;
@@ -981,12 +981,6 @@ fieldset:hover {
     transform: translate(-50%, -5px); 
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
-
-
-
-
-
-
 
 
 
